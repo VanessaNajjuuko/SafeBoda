@@ -1,0 +1,282 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fc;
+  color: #1d2433;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #111827);
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #facc15 !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #facc15;
+  color: #111827;
+  font-weight: 800;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #facc15 !important;
+}
+
+.hero-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  color: #fff;
+}
+
+.hero-copy h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-copy p {
+  font-size: 1.05rem;
+  color: #e5e7eb;
+  max-width: 560px;
+}
+
+.eyebrow {
+  color: #facc15;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.hero-actions {
+  margin: 1.5rem 0;
+}
+
+.hero-actions .btn-primary {
+  background: #facc15;
+  border: none;
+  color: #111827;
+  font-weight: 700;
+}
+
+.hero-actions .btn-primary:hover {
+  background: #eab308;
+}
+
+.hero-actions .btn-outline-light {
+  margin-left: 0.75rem;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.hero-stats div {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  min-width: 140px;
+}
+
+.hero-stats strong {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.hero-stats span {
+  color: #d1d5db;
+  font-size: 0.9rem;
+}
+
+.hero-card {
+  background: #fff;
+  color: #111827;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18);
+}
+
+.service-options {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.service-pill {
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font-weight: 600;
+}
+
+.service-pill.active {
+  background: #111827;
+  color: #fff;
+  border-color: #111827;
+}
+
+.section-space {
+  padding: 5rem 0;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.section-heading h2,
+.feature-band h2,
+.delivery-card h2 {
+  font-weight: 700;
+}
+
+.service-card,
+.feature-item,
+.delivery-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  height: 100%;
+}
+
+.service-card i,
+.feature-item i {
+  font-size: 1.6rem;
+  color: #f59e0b;
+  margin-bottom: 0.8rem;
+}
+
+.feature-band {
+  background: #f3f4f6;
+}
+
+.feature-list {
+  padding-left: 1.1rem;
+  color: #374151;
+}
+
+.feature-list li {
+  margin-bottom: 0.6rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.delivery-card ul {
+  padding-left: 1rem;
+}
+
+.footer-dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.footer-dark a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.footer-dark a:hover {
+  color: #facc15;
+}
+
+@media (max-width: 768px) {
+  .hero-copy h1 {
+    font-size: 2.3rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions .btn-outline-light {
+    margin-left: 0;
+    margin-top: 0.75rem;
+  }
+}
+
+.contact-hero {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+}
+
+.contact-card {
+  border: 1px solid #e5e7eb;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  margin-bottom: 0.9rem;
+  color: #374151;
+}
+
+.contact-list i {
+  color: #f59e0b;
+  margin-top: 0.2rem;
+}
+
+.map-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 1rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+}
+
+.form-control:focus {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 0.2rem rgba(245, 158, 11, 0.15);
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-right: 0.6rem;
+  border-radius: 50%;
+  background: #f3f4f6;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #facc15;
+  color: #111827;
+}
